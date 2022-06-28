@@ -1,0 +1,147 @@
+@import './variables.scss';
+
+.nio-title {
+    font-size: 16px;
+    color: $font-title-color;
+    line-height: 16px;
+}
+
+.nio-title-small {
+    font-size: 14px;
+    color: $font-title-color;
+    line-height: 14px;
+}
+.nio-title-large {
+    font-size: 18px;
+    color: $font-title-color;
+    line-height: 18px;
+}
+.nio-font-size {
+    font-size: $nio-font-size;
+}
+/*字体颜色 禁用*/
+.nio-tips-color {
+    color: $font-tips-color;
+}
+/*字体颜色 常规*/
+.nio-font-color {
+    color: $font-color;
+}
+.nio-disable-color {
+    color: $font-disable-color;
+}
+.nio-background {
+    background: $nio-background;
+}
+
+.nio-color,
+.nio-theme,
+.nio-active {
+    color: $nio-theme;
+}
+
+.nio-width100 {
+    width: 100%;
+}
+
+.nio-width9 {
+    width: 90%;
+    display: inline-block;
+    margin-left: 5%;
+    display: flex;
+}
+
+.nio-center {
+    text-align: center;
+}
+
+.nio-right {
+    text-align: right;
+}
+
+.nio-hide {
+    display: none;
+}
+
+.nio-oneline {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    /*超出部分隐藏*/
+    white-space: nowrap;
+    /*不换行*/
+    text-overflow: ellipsis;
+    /*超出部分文字以...显示*/
+}
+
+.nio-ml {
+    margin-left: $nio-spacing;
+}
+
+.nio-ml-large {
+    margin-left: $nio-spacing-large;
+}
+
+.nio-ml-small {
+    margin-left: $nio-spacing-small;
+}
+
+.nio-mr {
+    margin-right: $nio-spacing;
+}
+
+.nio-mr-large {
+    margin-right: $nio-spacing-large;
+}
+
+.nio-mr-small {
+    margin-right: $nio-spacing-small;
+}
+
+.nio-mt {
+    margin-top: $nio-spacing;
+}
+
+.nio-mt-large {
+    margin-top: $nio-spacing-large;
+}
+
+.nio-mt-small {
+    margin-top: $nio-spacing-small;
+}
+
+.nio-mb {
+    margin-bottom: $nio-spacing;
+}
+
+.nio-mb-large {
+    margin-bottom: $nio-spacing-large;
+}
+
+.nio-mb-small {
+    margin-bottom: $nio-spacing-small;
+}
+
+.nio-pl {
+    padding-left: $nio-spacing;
+}
+
+.nio-pl-large {
+    padding-left: $nio-spacing-large;
+}
+
+.nio-pl-small {
+    padding-left: $nio-spacing-small;
+}
+
+.nio-pr {
+    padding-right: $nio-spacing;
+}
+
+.nio-pr-large {
+    padding-right: $nio-spacing-large;
+}
+
+.nio-pr-small {
+    padding-right: $nio-spacing-small;
+}

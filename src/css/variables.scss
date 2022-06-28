@@ -1,0 +1,94 @@
+/**
+ * @file 统一定义常用的变量——内外间距  大中小 字体大小 字体颜色 主题颜色 线条颜色 背景色 数据色 提示颜色 边框圆角，全局变量引用
+ * @version 2.0
+ */
+
+/*内外间距*/
+$nio-spacing-4: 4px;
+/*内外间距 常规 */
+$nio-spacing: 12px;
+/*内外间距 大 */
+$nio-spacing-large: 50px;
+/*内外间距 适中*/
+$nio-spacing-middle: 20px;
+/*内外间距 适中偏小*/
+$nio-spacing-small: 10px;
+
+/*字体大小*/
+$nio-font-size: 14px;
+$nio-font-size-large: 12px;
+$nio-font-size-small: 16px;
+
+/* 阴影颜色 */
+$font-shadow-color: rgba(0, 0, 0, 0.1);
+$font-shadow-color-15: rgba(0, 0, 0, 0.15);
+$font-title-color: rgba(0, 0, 0, 0.85);
+/*正文颜色*/
+$font-color: rgba(0, 0, 0, 0.65);
+$font-color-70: rgba(0, 0, 0, 0.7);
+$font-color-100: rgba(0, 0, 0, 1);
+$font-gray-color: #818990;
+
+/* 水印提示 */
+$font-tips-color: rgba(0, 0, 0, 0.45);
+/* 禁用颜色 */
+$font-disable-color: rgba(204, 204, 204, 1);
+
+/* 主题颜色*/
+/*主题颜色 常规 */
+$nio-theme: #00bebe;
+/*主题颜色 深  */
+$nio-theme-deeply: #35495a;
+/*主题颜色 浅 */
+$theme-color: #00bebe;
+$nio-theme-shallow: #0a47ed;
+
+/* 线条色 */
+/*线条色 常规 */
+$nio-line: #e8e8e8;
+/* 线条色 深  */
+$nio-line-deeply: #d7d7d7;
+/*线条色 浅 */
+$nio-line-shallow: #0a47ed;
+$nio-line-gray: #ccd6db;
+
+/* 背景颜色 */
+/*背景色 白色 */
+$nio-theme-default: #fff;
+/*背景色 常规 */
+$nio-background: #f3f5f6;
+/*背景色 深 */
+$nio-background-deeply: #f3f3f3;
+/*背景色 浅 */
+$nio-background-shallow: #f8f8fa;
+
+/* 提示颜色 */
+/* 成功色 */
+$nio-success-full: rgba(70, 188, 21, 1);
+/* 成功色透明*/
+$nio-success-transparent: rgba(70, 188, 21, 0.4);
+
+/* 提示色 */
+$nio-notice-full-blue: rgba(74, 144, 226, 1);
+/* 提示色透明*/
+$nio-notice-transparent: rgba(74, 144, 226, 0.4);
+
+/* 警告色 */
+$nio-warning-full: rgba(255, 147, 0, 1);
+/* 提示色透明*/
+$nio-warning-transparent: rgba(255, 147, 0, 0.4);
+
+/* 错误色 */
+$nio-notice-full: rgba(240, 70, 39, 1);
+/* 错误色透明 */
+$nio-notice-transparent: rgba(240, 70, 39, 0.4);
+
+/* 边框圆角 */
+/* 全圆角 */
+$nio-whole-border-radius: 50%;
+/* 常规圆角 */
+$nio-border-radius: 4px;
+/*小圆角 */
+$nio-border-radius-small: 2px;
+/* 大圆角 */
+$nio-border-radius-large: 8px;
